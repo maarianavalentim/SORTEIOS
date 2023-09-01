@@ -1,0 +1,37 @@
+body{
+    width: auto;
+    height: 600px;
+    }
+.container{
+    background-color:#3498db;
+    display:flexbox;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 500px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
+    }
+  h2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+  }
+  .entrada{
+    padding: 10px;
+    font: 25px 'Geneva';
+
+  }
+  input{
+    background-color: #94d4ff
+
+  }
+  button{
+    background-color: #94d4ff;
+    font: 20px 'Geneva' ;
+    
+  }
+  .entrada{
+    color: white;
+    font-family: Arial, sans-serif;
+  }

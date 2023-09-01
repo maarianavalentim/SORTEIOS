@@ -1,0 +1,47 @@
+/* Definir um estilo de fundo para a página */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizar o cabeçalho (título) */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilizar os botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilizar o botão de números */
+.btn-numeros {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Estilizar o botão de nomes */
+.btn-nomes {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Alterar a cor do botão ao passar o mouse */
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
